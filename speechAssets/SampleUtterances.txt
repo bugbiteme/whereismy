@@ -1,0 +1,7 @@
+PutIntent I put the {Item} in the {Location}
+PutIntent I put the {Item} on the {Location}
+
+GetIntent Where is the {Item}
+GetIntent Where are the {Item}
+GetIntent Where is my {Item}
+GetIntent Where are my {Item}

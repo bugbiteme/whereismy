@@ -1,0 +1,32 @@
+{
+  "intents": [
+    {
+      "intent": "TestIntent"
+    },
+    {
+      "intent": "PutIntent",
+      "slots": [
+        {
+          "name": "Item",
+          "type": "LIST_OF_ITEMS"
+        },
+        {
+          "name": "Location",
+          "type": "LIST_OF_LOCATIONS"
+        }
+      ]
+    },
+    {
+      "intent": "GetIntent",
+      "slots": [
+        {
+          "name": "Item",
+          "type": "LIST_OF_ITEMS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
